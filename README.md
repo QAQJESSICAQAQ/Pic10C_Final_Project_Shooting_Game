@@ -15,7 +15,7 @@ Watching qt tutorials (knowledge needed to implement the game)
 
 
 
-DAY 1
+DAY 1 Project Starts
 
 * QGraphicsScene -- container of all of my game objects, like a map. 
 
@@ -38,9 +38,9 @@ DAY 3 ---creating a bullet class (retangle will shoot when the space is pressed)
 
 * QTimer
 
-* Signals and Slots (learned in lecture)
+* Signals and Slots (learned in lecture)-- the bullet class has to inherit from QObject
 
-* QObject and Q_OBJECT macro
+* QObject and Q_OBJECT macro --the bullet class also need to include a QOBJECT macro
 
 
 
