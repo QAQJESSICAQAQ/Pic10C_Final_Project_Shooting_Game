@@ -28,12 +28,14 @@ SOURCES += \
         main.cpp \
         mainwindow.cpp \
     myrect.cpp \
-    bullet.cpp
+    bullet.cpp \
+    enemy.cpp
 
 HEADERS += \
         mainwindow.h \
     myrect.h \
-    bullet.h
+    bullet.h \
+    enemy.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

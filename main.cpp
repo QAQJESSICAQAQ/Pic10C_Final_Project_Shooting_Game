@@ -6,6 +6,8 @@
 
 #include<QGraphicsView>
 
+#include<QTimer>
+
 int main(int argc, char *argv[])
 
 {
@@ -61,6 +63,10 @@ int main(int argc, char *argv[])
     //setting the player to be at the middle of the bottom
     player->setPos(view->width()/2-50, view->height() - player->rect().height());
 
+    //instantiate enemies
+    QTimer * timer = new QTimer();
+    QObject::connect(timer, SIGNAL(timeout()),player, SLOT(spawn()));
+    timer->start(2000);//every 2 seconds
     return a.exec();
 
 
