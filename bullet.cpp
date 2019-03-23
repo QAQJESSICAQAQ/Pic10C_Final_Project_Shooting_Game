@@ -2,6 +2,8 @@
 #include<QTimer>
 #include<QGraphicsScene>
 #include<QDebug>
+#include<QList>
+#include "enemy.h"
 
 Bullet::Bullet(){
     setRect(0,0,10,50);//created bullet size
@@ -15,7 +17,20 @@ Bullet::Bullet(){
 }
 
 void Bullet::move()
-{//move bullet up
+{ //if bullet collides with enemy, destroy both
+    QList<QGraphicsItem *> colliding_items =collidingItems();
+    for (int i=0, n=colliding_items.size();i<n; i++){
+        if (typeid(*(colliding_items[i]))==typeid(Enemy))
+            //remove them both
+            scene()->removeItem(colliding_items[i]);
+            scene()->removeItem(this);
+            //delete objects on the heap
+            delete colliding_items[i];
+            delete this;
+
+    }
+
+    //move bullet up
     setPos(x(),y()-10);
     if (pos().y()<-10){//we delete the bullets when we can not longer see them in the window
         //remove the bullet from the scene before deleting it
