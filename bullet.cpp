@@ -4,10 +4,11 @@
 #include<QDebug>
 #include<QList>
 #include "enemy.h"
+#include<QGraphicsPixmapItem>
 
 Bullet::Bullet(){
-    setRect(0,0,10,50);//created bullet size
-
+    setPixmap(QPixmap(":/pics/bullet.png"));//draw graphics
+    //uh somehow we need to resize the image but i am stuck
     //connect
     QTimer * timer= new QTimer();
     connect(timer, SIGNAL(timeout()),this, SLOT(move()));

@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/pics">
+        <file>airPlanesBackground.png</file>
+        <file>bullet.png</file>
+        <file>PLANE 8 N.png</file>
+        <file>Spaceship.png</file>
+    </qresource>
+</RCC>

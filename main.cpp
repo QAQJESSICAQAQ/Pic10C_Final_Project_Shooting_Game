@@ -8,6 +8,10 @@
 
 #include<QTimer>
 
+#include<QBrush>
+
+#include<QImage>
+
 int main(int argc, char *argv[])
 
 {
@@ -54,7 +58,7 @@ int main(int argc, char *argv[])
     //quit solution to the "scroll bar getting smaller and smaller problem, as the bullet kept going upward
     view->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     view->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
-
+    scene->setBackgroundBrush(QBrush(QImage(":/pics/airPlanesBackground.png")));
 
     //show the view & set a fixed  & with equal size of the view
     view->show();

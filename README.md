@@ -62,17 +62,30 @@ DAY 5 ---fixing little problems and add enemy to the game
 
 * the bullet will destroy the enemy when thet meet, and both the enemy and the bullet are being destoyed
  
+DAY 6 ---changing rectangles to images, yeah!!!
+
+* QPixmap--more efficient on drawing on the screen
+
+* Qimage --more used in input & output
+
+* ummmm however for some reason that I don't really know i cannot manage to show the pictures. Possibly due to I do not know how to resize the image
 
 
+
+## Conclusion
+
+* the program is imperfect. I'm only able to use squares to show the bullet and player as well as the enemy.
+* things I learned in this project includes coordinates, several usefull classes, and also practices inheritance and signals and slots discussed in lecture :)
+* things to explore in the future: how to successfully use images in the program
 
 
 ## Acknowledgments
 
 After realizing the oreo app needs qt 3D creator I decided to switch to a simpler game, which only involves the regular qt creator (by follwing a qt game tutorial). 
-
+However I'm not able to finish it due to the fact that I do not know how to resize images in qt. 
 
 
 * [QT](https://www.youtube.com/watch?v=EkjaiDsiM-Q&list=PLS1QulWo1RIZiBcTr5urECberTITj7gjA) - Qt basics Tutorials
-* [QT_Games](https://www.youtube.com/watch?v=8ntEQpg7gck&list=PLyb40eoxkelOa5xCB9fvGrkoBf8JzEwtV&index=1)-QT game tutorial
+* [QT_Games](https://www.youtube.com/channel/UClzV7jGJREjvCTzfGTrdrkQ)-QT game tutorial
 
 
