@@ -6,18 +6,40 @@ Original purpose: implementing a oreo game using qt
 NOW CHANGES DUE TO LACK OF SKILLS---IMPLEMENTING A PLANE SHOOTING GAME
 
 ## Getting Started
+
 Watching qt tutorials (knowledge needed to implement the game)
+
 * Openning new windows
+
 * QPix
+
+
+
+DAY 1
+
 * QGraphicsScene -- container of all of my game objects, like a map. 
+
 * QGraphicsItem (QGraphicsRecItem)-- objects in QGraphicsItem and its subclasses goes inside the scene.
+
 * QGraphicsView --the widget that visualize the scene.
 
 
+
+DAY 2
+
+* Events -- KeyPressEven() and QKeyEvent
+
+* Event Propagation System --the order in which the event is passed around
+
+* Header file QDebug
+
+
+
+
+
 ## Acknowledgments
+
 After realizing the oreo app needs qt 3D creator I decided to switch to a simpler game, which only involves the regular qt creator (by follwing a qt game tutorial). 
-
-
 
 
 
