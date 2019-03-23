@@ -43,6 +43,18 @@ DAY 3 ---creating a bullet class (retangle will shoot when the space is pressed)
 * QObject and Q_OBJECT macro --the bullet class also need to include a QOBJECT macro
 
 
+DAY 4 ---making the window start at large and keep the original rectangle always at the bottom so it can shoot 
+
+* Coordinate systems included:
+
+* QGraphicsView, QGraphicsScene, QGraphicsItem
+
+* set the scene size-->so the scene will not get bigger even if the object gets bigger than the scene
+ 
+
+
+
+
 
 
 ## Acknowledgments

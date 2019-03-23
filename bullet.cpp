@@ -17,7 +17,7 @@ Bullet::Bullet(){
 void Bullet::move()
 {//move bullet up
     setPos(x(),y()-10);
-    if (pos().y()<0){//we delete the bullets when we can not longer see them in the window
+    if (pos().y()<-10){//we delete the bullets when we can not longer see them in the window
         //remove the bullet from the scene before deleting it
         scene()->removeItem(this);
         delete this;
