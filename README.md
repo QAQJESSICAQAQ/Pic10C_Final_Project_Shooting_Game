@@ -17,6 +17,7 @@ Watching qt tutorials (knowledge needed to implement the game)
 
 DAY 1 Project Starts
 
+
 * QGraphicsScene -- container of all of my game objects, like a map. 
 
 * QGraphicsItem (QGraphicsRecItem)-- objects in QGraphicsItem and its subclasses goes inside the scene.
@@ -27,6 +28,7 @@ DAY 1 Project Starts
 
 DAY 2 ---creating a rectangle that moves corresponding to the up/down/left/right key
 
+
 * Events -- KeyPressEven() and QKeyEvent
 
 * Event Propagation System --the order in which the event is passed around
@@ -36,6 +38,7 @@ DAY 2 ---creating a rectangle that moves corresponding to the up/down/left/right
 
 DAY 3 ---creating a bullet class (retangle will shoot when the space is pressed)
 
+
 * QTimer
 
 * Signals and Slots (learned in lecture)-- the bullet class has to inherit from QObject
@@ -43,7 +46,9 @@ DAY 3 ---creating a bullet class (retangle will shoot when the space is pressed)
 * QObject and Q_OBJECT macro --the bullet class also need to include a QOBJECT macro
 
 
+
 DAY 4 ---making the window start at large and keep the original rectangle always at the bottom so it can shoot 
+
 
 * Coordinate systems included:
 
@@ -61,8 +66,11 @@ DAY 5 ---fixing little problems and add enemy to the game
 * we hope to randomly create several player on the top (going down), and the player can shoot bullets at them
 
 * the bullet will destroy the enemy when thet meet, and both the enemy and the bullet are being destoyed
+
+
  
 DAY 6 ---changing rectangles to images, yeah!!!
+
 
 * QPixmap--more efficient on drawing on the screen
 
@@ -75,8 +83,15 @@ DAY 6 ---changing rectangles to images, yeah!!!
 ## Conclusion
 
 * the program is imperfect. I'm only able to use squares to show the bullet and player as well as the enemy.
+
+
 * things I learned in this project includes coordinates, several usefull classes, and also practices inheritance and signals and slots discussed in lecture :)
+
+
 * things to explore in the future: how to successfully use images in the program
+
+
+* commit 887782e0393e6935143ee5df89244734ac554e8a yields valid output. We can use the keyboard up, down, left and right to move the bottom rectangle (the player), and enemies (rectangles emerging on the top of the window) can be distroyed when we press "space" and the player shoots a bullet (a smaller rectangle).
 
 
 ## Acknowledgments
