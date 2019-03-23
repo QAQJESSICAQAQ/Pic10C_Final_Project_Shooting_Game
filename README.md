@@ -87,5 +87,6 @@ However I'm not able to finish it due to the fact that I do not know how to resi
 
 * [QT](https://www.youtube.com/watch?v=EkjaiDsiM-Q&list=PLS1QulWo1RIZiBcTr5urECberTITj7gjA) - Qt basics Tutorials
 * [QT_Games](https://www.youtube.com/channel/UClzV7jGJREjvCTzfGTrdrkQ)-QT game tutorial
+* Pictures found in Google
 
 
