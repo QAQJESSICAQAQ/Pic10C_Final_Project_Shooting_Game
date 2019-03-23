@@ -53,6 +53,15 @@ DAY 4 ---making the window start at large and keep the original rectangle always
  
 
 
+DAY 5 ---fixing little problems and add enemy to the game
+
+
+* opps we just found out that the player can go outside of the view, need to fix that
+
+* we hope to randomly create several player on the top (going down), and the player can shoot bullets at them
+
+* the bullet will destroy the enemy when thet meet, and both the enemy and the bullet are being destoyed
+ 
 
 
 
