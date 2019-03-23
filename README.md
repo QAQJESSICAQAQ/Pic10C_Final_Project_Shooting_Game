@@ -25,7 +25,7 @@ DAY 1
 
 
 
-DAY 2
+DAY 2 ---creating a rectangle that moves corresponding to the up/down/left/right key
 
 * Events -- KeyPressEven() and QKeyEvent
 
@@ -33,6 +33,14 @@ DAY 2
 
 * Header file QDebug
 
+
+DAY 3 ---creating a bullet class (retangle will shoot when the space is pressed)
+
+* QTimer
+
+* Signals and Slots (learned in lecture)
+
+* QObject and Q_OBJECT macro
 
 
 
