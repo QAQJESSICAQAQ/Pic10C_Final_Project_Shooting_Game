@@ -47,7 +47,9 @@ int main(int argc, char *argv[])
     //add a view
 
     QGraphicsView * view = new QGraphicsView(scene);
-
+    //quit solution to the "scroll bar getting smaller and smaller problem, as the bullet kept going upward
+    view->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
+    view->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     view->show();
 
     return a.exec();
