@@ -1,19 +1,14 @@
 # Pic10C_Final_Project_Shooting_Game
 Original purpose: implementing a oreo game using qt
+didn't realizeing that it requires 3d techniques since the different parts of the oreo are overlapping.
 
 [Oreoo repository (failed)](https://github.com/QAQJESSICAQAQ/Pic10C_Final-Project/edit/master/README.md) 
 
-NOW CHANGES DUE TO LACK OF SKILLS---IMPLEMENTING A PLANE SHOOTING GAME
+NOW CHANGED DUE TO LACK OF SKILLS---IMPLEMENTING A PLANE SHOOTING GAME
+note: it is an attempt to code the structure of the game, which doesn't contain any colorful images.
+After the foundatemtals are done, I would start to implement the pictures.
 
-## Getting Started
-
-Watching qt tutorials (knowledge needed to implement the game)
-
-* Openning new windows
-
-* QPix
-
-
+## Getting Started  (plan)
 
 DAY 1 Project Starts
 
@@ -85,23 +80,23 @@ DAY 6 ---changing rectangles to images, yeah!!!
 * the program is imperfect. I'm only able to use squares to show the bullet and player as well as the enemy.
 
 
-* things I learned in this project includes coordinates, several usefull classes, and also practices inheritance and signals and slots discussed in lecture :)
+* Things I learned in this project includes coordinates, several usefull classes, and also practices inheritance and signals and slots discussed in lecture :)
 
 
-* things to explore in the future: how to successfully use images in the program
+* Things to explore in the future: how to successfully use images in the program.
 
 
-* commit 887782e0393e6935143ee5df89244734ac554e8a yields valid output. We can use the keyboard up, down, left and right to move the bottom rectangle (the player), and enemies (rectangles emerging on the top of the window) can be distroyed when we press "space" and the player shoots a bullet (a smaller rectangle).
+* commit 887782e0393e6935143ee5df89244734ac554e8a yields valid output. We can use the up, down, left and right key on the keyboard to move the bottom rectangle (the player). Enemies (rectangles emerging on the top of the window) can be distroyed when we press "space" and the player shoots a bullet (a smaller rectangle).
 
 
 ## Acknowledgments
 
-After realizing the oreo app needs qt 3D creator I decided to switch to a simpler game, which only involves the regular qt creator (by follwing a qt game tutorial). 
-However I'm not able to finish it due to the fact that I do not know how to resize images in qt. 
+After realizing the oreo app needs qt 3D creator I decided to switch to a simpler game, which only involves the regular qt creator (by follwing a qt game tutorial and learn the necessary skills for the game). 
+However I'm not able to finish it due to the fact that I do not know how to resize images in qt....
 
 
 * [QT](https://www.youtube.com/watch?v=EkjaiDsiM-Q&list=PLS1QulWo1RIZiBcTr5urECberTITj7gjA) - Qt basics Tutorials
 * [QT_Games](https://www.youtube.com/channel/UClzV7jGJREjvCTzfGTrdrkQ)-QT game tutorial
-* Pictures found in Google
+* Pictures of planes found in Google
 
 
