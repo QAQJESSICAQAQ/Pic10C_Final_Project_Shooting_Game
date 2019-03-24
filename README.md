@@ -8,9 +8,9 @@ NOW CHANGED DUE TO LACK OF SKILLS---IMPLEMENTING A PLANE SHOOTING GAME
 note: it is an attempt to code the structure of the game, which doesn't contain any colorful images.
 After the foundatemtals are done, I would start to implement the pictures.
 
-## Getting Started  (plan)
+## Getting Started  (plan & things to be done)
 
-DAY 1 Project Starts
+STEP 1 Project Starts
 
 
 * QGraphicsScene -- container of all of my game objects, like a map. 
@@ -21,7 +21,7 @@ DAY 1 Project Starts
 
 
 
-DAY 2 ---creating a rectangle that moves corresponding to the up/down/left/right key
+STEP 2 ---creating a rectangle that moves corresponding to the up/down/left/right key
 
 
 * Events -- KeyPressEven() and QKeyEvent
@@ -31,7 +31,7 @@ DAY 2 ---creating a rectangle that moves corresponding to the up/down/left/right
 * Header file QDebug
 
 
-DAY 3 ---creating a bullet class (retangle will shoot when the space is pressed)
+STEP 3 ---creating a bullet class (retangle will shoot when the space is pressed)
 
 
 * QTimer
@@ -42,7 +42,7 @@ DAY 3 ---creating a bullet class (retangle will shoot when the space is pressed)
 
 
 
-DAY 4 ---making the window start at large and keep the original rectangle always at the bottom so it can shoot 
+STEP 4 ---making the window start at large and keep the original rectangle always at the bottom so it can shoot 
 
 
 * Coordinate systems included:
@@ -53,7 +53,7 @@ DAY 4 ---making the window start at large and keep the original rectangle always
  
 
 
-DAY 5 ---fixing little problems and add enemy to the game
+STEP 5 ---fixing little problems and add enemy to the game
 
 
 * opps we just found out that the player can go outside of the view, need to fix that
@@ -64,7 +64,7 @@ DAY 5 ---fixing little problems and add enemy to the game
 
 
  
-DAY 6 ---changing rectangles to images, yeah!!!
+STEP 6 ---changing rectangles to images, yeah!!!
 
 
 * QPixmap--more efficient on drawing on the screen
@@ -72,6 +72,10 @@ DAY 6 ---changing rectangles to images, yeah!!!
 * Qimage --more used in input & output
 
 * ummmm however for some reason that I don't really know i cannot manage to show the pictures. Possibly due to I do not know how to resize the image
+
+STEP 7 ----implementing sounds
+
+* Not achieved. :(
 
 
 
